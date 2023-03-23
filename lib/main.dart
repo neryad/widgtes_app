@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 3).getTheme(),
-      title: 'Material App',
+      title: 'WidgetsApps',
     );
   }
 }
