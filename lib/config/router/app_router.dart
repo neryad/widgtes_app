@@ -5,34 +5,39 @@ import '../../presentation/screens/screens.dart';
 final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
     path: '/',
-    builder: (context, state) => HomeScreen(),
+    builder: (context, state) => const HomeScreen(),
   ),
   GoRoute(
     path: '/buttons',
-    builder: (context, state) => ButtonsScreen(),
+    builder: (context, state) => const ButtonsScreen(),
   ),
   GoRoute(
     path: '/cards',
-    builder: (context, state) => CardScreen(),
+    builder: (context, state) => const CardScreen(),
   ),
   GoRoute(
     path: '/progress',
     name: ProgressScreen.name,
-    builder: (context, state) => ProgressScreen(),
+    builder: (context, state) => const ProgressScreen(),
   ),
   GoRoute(
     path: '/snackbar',
     name: SnackBarScreen.name,
-    builder: (context, state) => SnackBarScreen(),
+    builder: (context, state) => const SnackBarScreen(),
   ),
   GoRoute(
     path: '/animated',
     name: AnimatedScreen.name,
-    builder: (context, state) => AnimatedScreen(),
+    builder: (context, state) => const AnimatedScreen(),
   ),
   GoRoute(
     path: '/ui-controls',
     name: UiControlsScreen.name,
-    builder: (context, state) => UiControlsScreen(),
+    builder: (context, state) => const UiControlsScreen(),
+  ),
+  GoRoute(
+    path: '/tutorial',
+    name: AppTutorialScreen.name,
+    builder: (context, state) => const AppTutorialScreen(),
   )
 ]);
