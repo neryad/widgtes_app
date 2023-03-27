@@ -1,3 +1,4 @@
+export 'package:widgtes_app/presentation/screens/theme_changer/theme_changer_screen.dart';
 export 'package:widgtes_app/presentation/screens/animated/aniomated_screen.dart';
 export 'package:widgtes_app/presentation/screens/app_tutorial/app_tutorial_screen.dart';
 export 'package:widgtes_app/presentation/screens/infinite_scroll/infinit_scroll_screen.dart';
